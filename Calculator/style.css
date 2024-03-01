@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+}
+
+.calculator {
+
+  width: 350px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 8px 8px 6px 10px #025bad;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  width: 25%;
+  
+  height: 50px;
+  border: 1px solid #ccc;
+}
+
+input[type="text"] {
+  width: 80%;
+  text-align:right;
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 20px;
+  border-color:transparent;
+  margin-top:20px;
+  padding: 10px;
+}
+
+td:hover {
+  background-color:#025bad;
+}
+
+.fa {
+  font-size: 24px;
+  vertical-align: middle;
+}
